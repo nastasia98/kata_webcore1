@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="container">
+    <div class="container__img">
+        <img src="img/bg.jpg" alt="poster">
+        <img class="container__img-logo" src="img/logo.svg" alt="logo">
+    </div>
+    <div class="container__register">
+        <h1>Get iintoo it today</h1>
+        <p>There is no charge or obligation upon registration</p>
+        <div class="register__buttons">
+            <button class="register__buttons-fb"><img src="img/facebook.svg"><span>Register with Facebook</span>
+            </button>
+            <button class="register__buttons-in"><img src="img/linkedin.svg"><span>Register with LinkedIn</span>
+            </button>
+        </div>
+        <p class="decor">OR</p>
+        <form>
+            <div class="input">
+                <div>
+                    <label for="email"> Email</label>
+                    <input name="email" type="email" value="gus.goodwin@gmail.com" id="email">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input name="phone" type="text" value="" id="phone">
+                </div>
+            </div>
+
+            <h2>What type of investor are you?</h2>
+            <p class="h2">Select the type of investor you are bellow.</p>
+
+            <div class="radio">
+                <div>
+                    <label>
+                        <input type="radio" name="investor" value="Individual" checked>Individual <span>&#9432;</span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="investor" value="Business">Business <span>&#9432;</span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="investor" value="IRA">IRA <span>&#9432;</span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="investor" value="Trust">Trust <span>&#9432;</span>
+                    </label>
+                </div>
+            </div>
+            <p class="comment">
+                I am a natural person investing on my own behalf as a sole owner, join tenant, or tenant in common
+            </p>
+            <label class="check">
+                <input type="checkbox" name="agree" value="agree">I agree to the terms and receiving notifications
+                from iintoo <a href="">View full terms</a>
+            </label>
+            <button class="account">Create Account</button>
+        </form>
+
+
+    </div>
+
+</main>
+
+</body>
+</html>
