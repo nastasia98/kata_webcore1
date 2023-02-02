@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 250px;
   display: grid;
   grid-template-columns: 53% 43%;
   position: absolute;
